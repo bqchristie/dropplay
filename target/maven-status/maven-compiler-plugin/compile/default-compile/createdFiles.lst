@@ -1,5 +1,0 @@
-com/ia/helloworld/api/Saying.class
-com/ia/helloworld/HelloWorldConfiguration.class
-com/ia/helloworld/health/TemplateHealthCheck.class
-com/ia/helloworld/HelloWorldApplication.class
-com/ia/helloworld/resources/HelloWorldResource.class
