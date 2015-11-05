@@ -3,17 +3,17 @@ package com.ia.helloworld.api;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.Length;
 
-public class Saying {
+public class Visit {
     private long id;
 
     @Length(max = 3)
     private String content;
 
-    public Saying() {
+    public Visit() {
         // Jackson deserialization
     }
 
-    public Saying(long id, String content) {
+    public Visit(long id, String content) {
         this.id = id;
         this.content = content;
     }
